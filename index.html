@@ -8,6 +8,9 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -27,10 +30,10 @@
         </nav>
     </header>
     <section class="hero">
-        <img class="hero-image" src="assets/img/hero.png" alt="">
+        <img data-aos="fade-left" class="hero-image" src="assets/img/hero.png" alt="">
         <div class="lines"></div>
         <div class="lines lines-2"></div>
-        <div class="hero-row">
+        <div data-aos="fade-right" class="hero-row">
             <h1>The future of <br><span>exhilaration</span></h1>
             <h2>Ford Mustang <span>2021</span> </h2>
             <div class="buttons">
@@ -47,19 +50,19 @@
         <div class="describe-order">
             <h4>Get the vehicle you want with an online custom order.</h4>
             <div class="order-row">
-                <div class="row">
+                <div data-aos="fade-right" class="row">
                     <div class="number-1">1</div>
                     <h5>Build & Price Your Vehicle</h5>
                     <p>Choose model, trim & options to create your custom order.</p>
                     <a href="#">Learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
                 </div>
-                <div class="row row-middle">
+                <div data-aos="fade-up" class="row row-middle">
                     <div class="number-2">2</div>
                     <h5>Build & Price Your Vehicle</h5>
                     <p>Choose model, trim & options to create your custom order.</p>
                     <a href="#">Learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
                 </div>
-                <div class="row">
+                <div data-aos="fade-left" class="row">
                     <div class="number-3">3</div>
                     <h5>Build & Price Your Vehicle</h5>
                     <p>Choose model, trim & options to create your custom order.</p>
@@ -67,19 +70,19 @@
                 </div>
             </div>
             <div class="order-button">
-                <a href="#">Create Your Custom Order</a>
-                <a href="#">Custom Order Explained</a>
+                <a data-aos="fade-up" href="#">Create Your Custom Order</a>
+                <a data-aos="fade-up" href="#">Custom Order Explained</a>
             </div>
             <div class="price-and-more">
-                <div>
+                <div data-aos="fade-right">
                     <h6>Starting At</h6>
                     <p>$27,205</p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h6>EPA-Est. MPG City/Hwy</h6>
                     <p>21/30</p>
                 </div>
-                <div>
+                <div data-aos="fade-left">
                     <h6>Seating For</h6>
                     <p>4</p>
                 </div>
@@ -92,7 +95,7 @@
             <h4>At the heart of every Mustang is a high-powered engine. Mustang offers four available engines,<br> including the 5.2L supercharged V8.</h4>
         </div>
         <div class="mattor-describe">
-            <div class="mattor-text">
+            <div data-aos="fade-right" class="mattor-text">
                 <h5>ExhoBoost®</h5>
                 <p>
                     It’s a first Ecoboost® engine powered by Ford Performance and it’s not afraid to prove it. The 2.3L high-performance engine differentiates itself with a slightly larger twin-scroll turbo compressor. 
@@ -105,11 +108,11 @@
                     <p><img src="assets/img/correct.png" alt="">   Twin independent variable camshaft timing (Ti-VCT)</p>
                 </div>
             </div>
-            <img src="assets/img/image (1).png" alt="">
+            <img data-aos="fade-left" src="assets/img/image (1).png" alt="">
         </div>
         <div class="mattor-describe">
-            <img src="assets/img/image (2).png" alt="">
-            <div class="mattor-text">
+            <img data-aos="fade-right" src="assets/img/image (2).png" alt="">
+            <div data-aos="fade-left" class="mattor-text">
                 <h5>GT</h5>
                 <p>5.0L Ti-VCT V8 <br> An engine that comes standard with a hit of adrenaline.</p>
                 <div class="notes">
@@ -120,7 +123,7 @@
             </div>
         </div>
         <div class="mattor-describe">
-            <div class="mattor-text">
+            <div data-aos="fade-right" class="mattor-text">
                 <h5>Mach 1</h5>
                 <p>
                     5.0L Tri-VCT V8 <br>
@@ -133,11 +136,11 @@
                     <p><img src="assets/img/correct.png" alt="">   6-speed manual transmission with rev-matching</p>
                 </div>
             </div>
-            <img src="assets/img/image (3).png" alt="">
+            <img data-aos="fade-left" src="assets/img/image (3).png" alt="">
         </div>
-        <div class="mattor-describe">
-            <img src="assets/img/image.png" alt="">
-            <div class="mattor-text">
+        <div  class="mattor-describe">
+            <img data-aos="fade-right" src="assets/img/image.png" alt="">
+            <div data-aos="fade-left" class="mattor-text">
                 <h5>Shelby® GT500®</h5>
                 <p>5.2L supercharged cross=plane crank V8.<br> Top-of-the-line power that you can feel.</p>
                 <div class="notes">
@@ -150,8 +153,8 @@
     </section>
     <section class="slideshow">
         <img class="background-photo" src="assets/img/Background.png" alt="">
-        <h2>PHOTO GALLERY</h2>
-        <div class="slideshow-container">
+        <h2 data-aos="fade-up">PHOTO GALLERY</h2>
+        <div data-aos="fade-up" class="slideshow-container">
 
             <div class="mySlides fade">
                 <img class="main-photo" src="assets/img/image (4).png" >
@@ -181,7 +184,7 @@
         
         </div>
         <br>        
-        <div style="text-align:center">
+        <div data-aos="fade-up" style="text-align:center">
             <span class="dot" onclick="currentSlide(2)"><img class="secendery-photo" src="assets/img/image (5).png"></span> 
             <span class="dot" onclick="currentSlide(3)"><img class="secendery-photo" src="assets/img/image (6).png"></span>
             <span class="dot" onclick="currentSlide(1)"><img class="secendery-photo" src="assets/img/image (7).png"></span> 
@@ -191,8 +194,8 @@
         </div>
     </section>
     <section class="learn-more">
-        <img class="background-photo" src="assets/img/image (11).png" alt="">
-        <div class="learn-more-text">
+        <img data-aos="fade-left" class="background-photo" src="assets/img/image (11).png" alt="">
+        <div data-aos="fade-right" class="learn-more-text">
             <h2>FordPass. Built to keep you Moving.®</h2>
             <p>FordPass Connect (optional on select vehicles), the FordPass App; and complimentary Connected Service are required for remote features (see FordPass Terms for details). Connected service and features depend on compatible AT&T network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features. Connected service excludes WiFi hotspot.</p>
             <a href="#">Learn More</a>
@@ -200,15 +203,15 @@
     </section>
     <footer>
         <div class="footer">
-           <img class="background-photo footer-background-photo " src="assets/img/image (12).png" alt="">
-            <div class="footer-text">
+            <img data-aos="fade-left" class="background-photo footer-background-photo " src="assets/img/image (12).png" alt="">
+            <div data-aos="fade-right" class="footer-text">
                 <h2>Quality means doing it right <br> when no one is looking <span>– Henry Ford</span></h2>
                 <p>Our dealership takes your privacy seriously and is committed to safeguarding your privacy online. Because we do gather certain types of information from you.</p>
                 <a href="#">Contact For Queries</a>
             </div> 
         </div>
 
-        <div class="mini-menu">
+        <div data-aos="fade-up" class="mini-menu">
             <div>
                 <img src="assets/img/logo.png" alt="logo">
             </div>
@@ -222,8 +225,7 @@
                 <ion-icon name="logo-facebook"></ion-icon>
                 <ion-icon name="logo-instagram"></ion-icon>
                 <ion-icon name="logo-youtube"></ion-icon>
-            </div>
-            
+            </div> 
             
         </div>
         <div class="footer-line"></div>
@@ -231,5 +233,6 @@
     </footer>
 
     <script src="assets/js/slideshow.js" ></script>
+    <script>AOS.init();</script>
 </body>
 </html>
